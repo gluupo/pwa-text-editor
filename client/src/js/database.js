@@ -32,8 +32,8 @@ export const getDb = async () => {
   const result = await request;
   if (result.length > 0) {
     console.log('result.value', result);
-    console.log(result[0].content);
-    return result[0].content;
+    console.log(result[result.length - 1].content);
+    return result[result.length - 1].content;
   } else
     return null;
 }

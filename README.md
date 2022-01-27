@@ -40,7 +40,7 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 ## visuals
-
+[![Image from Gyazo](https://i.gyazo.com/0fa3778214d47066a77898fa83c39b2e.gif)](https://gyazo.com/0fa3778214d47066a77898fa83c39b2e)
 
 ## usage
 ```dependencies // packages```, ```node.js```, ```express.js```, ```babel```, ```webpack```, ```nodemon```
